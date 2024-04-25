@@ -1,4 +1,6 @@
-﻿namespace Project_1;
+﻿using System.Text.Json;
+
+namespace Project_1;
 
 class Program
 {
@@ -13,8 +15,19 @@ class Program
 
 
 
+        Eleves eleves = new Eleves();
+     
+
+
+       
+
+
+       
 
     }
+
+
+
 
 
 }

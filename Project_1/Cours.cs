@@ -3,18 +3,21 @@ namespace Project_1
 {
 	public class Cours :Campus
 	{
+        private string _nom;
+        private int _identifiant;
         private string [] _cours { get; set; }
 
 
 
         public override void CreerNoveau()
         {
-            Console.WriteLine("Entrez le Nom de l'élève:");
-            string nom = Console.ReadLine();
+            SaisieUtilisateur saisieUtilisateurCreerCours = new SaisieUtilisateur();
+            saisieUtilisateurCreerCours.SaisieUtilisateurCreerCours();
 
             for (int i = 0; i < _cours.Length; i++)
             {
-                nom = _cours[i];
+                _nom += _cours[i];
+                i = _identifiant;
             }
 
 

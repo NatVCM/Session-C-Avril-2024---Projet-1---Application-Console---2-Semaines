@@ -1,16 +1,20 @@
-﻿using System;
+﻿using System.Text.Json;
 namespace Project_1
 {
-	public class Eleves : Campus
+	public class Eleves 
 	{
 
-
+        private string _nom;
         private string _prenom;
         private string _dateDeNaissance;
         private List<double> _notes = new List<double>();
-        private string[] _listeEleves { get; set; }
+        private string _apreciation;
+        
 
-      
+        public string GetNom()
+        {
+             return _nom;
+        }
 
 
         public string GetPrenom()
@@ -18,76 +22,51 @@ namespace Project_1
 			return _prenom;
 		}
 
-		public string GetDateDeNaissance()
+
+	    public string GetDateDeNaissance()
 		{
 
 			return _dateDeNaissance;
-            
+    
         }
 
-		public void   GetNotes()
-		{
-            
-		}
-
-
-        public void ConsulterEleve()
+        private string GetApreciation()
         {
-
-        }
-
-
-        public void AddNotes()
-        {
-            Console.WriteLine("Entrer une note: ");
-            string note = Console.ReadLine();
-            double saisirUtilisateur = Convert.ToDouble(note);
-            Console.WriteLine("Laissez une appréciation : ");
-            string appreciation = Console.ReadLine();
-
-
-            for (int i = 0; i>=0; i++)
-            {
-                saisirUtilisateur = _notes[i];
-               
-             }
-
-
+            return _apreciation;
         }
 
 
 
 
-        public override void CreerNoveau()
-        {
-            Console.WriteLine("Entrez le Nom de l'élève:");
-            string nom = Console.ReadLine();
-            Console.WriteLine("Entrez le Prenom de l'élève :");
-            string prenom = Console.ReadLine();
-            Console.WriteLine("Entrez sa date de naissance de l'élève:");
-            string dateDeNaissance = Console.ReadLine();
+
+
+        
+
+	
 
 
 
-            for (int i = 0; i < _listeEleves.Length; i++)
-            {
-                string noveauEleve = nom + prenom + dateDeNaissance;
-                noveauEleve = _listeEleves[i];
-                Identification = i;
-            }
-        }
 
 
 
-        public override void Lister()
-        {
-            foreach (double note in _notes)
-            {
-                Console.WriteLine(note);
-            }
-            
 
-        }
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+        
     }
 }
 

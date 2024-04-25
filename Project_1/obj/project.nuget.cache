@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pd8SEDMiV5jhg4ztBxPWHisrCYsuWRyoo+FhaknRqNdO17E6wOOZfa8CA9nUhJk+CMGXoEJV9wZ2JkNgjSxpjg==",
+  "dgSpecHash": "VFnE4ReOHL4ia7QyaEiXsM3ZUEnmRQrSDV+mrgBXZMo/AcOvJ4GsIzhgtciNXJ3/d/VXja0Amf57Q18ibPcDBw==",
   "success": true,
-  "projectFilePath": "/Users/natachacampos/Desktop/Projet/Project 1/Project 1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/natachacampos/Desktop/Projet/Project_1/Project 1.csproj",
+  "expectedPackageFiles": [
+    "/Users/natachacampos/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/Users/natachacampos/.nuget/packages/system.text.json/8.0.3/system.text.json.8.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

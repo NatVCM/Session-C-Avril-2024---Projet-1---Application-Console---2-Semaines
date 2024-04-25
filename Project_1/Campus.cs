@@ -1,18 +1,29 @@
 ﻿using System;
 namespace Project_1
 {
-	 public abstract class Campus
-	{
-        public int Identification { get; set;}
-        public string Nom { get; set; }
+	 public  class Campus
+    {
+        
 
+        private int[] _nomEleve;
 
 
         public abstract void CreerNoveau();
 
-        public abstract void Lister();
-      
-  
+        public void   ListerEleves()
+        {
+
+            Console.WriteLine(_eleves);
+        }
+
+
+        public void AfficherUnEleve()
+        {
+            SaisieUtilisateur saisieUtilisateurAfficheUnEleve = new SaisieUtilisateur();
+            saisieUtilisateurAfficheUnEleve.SaisieUtilisateurAfficherUnEleve();
+
+
+        }
 
        
     }

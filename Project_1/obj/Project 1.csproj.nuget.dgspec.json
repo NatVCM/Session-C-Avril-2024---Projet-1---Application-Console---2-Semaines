@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/natachacampos/Desktop/Projet/Project 1/Project 1.csproj": {}
+    "/Users/natachacampos/Desktop/Projet/Project_1/Project 1.csproj": {}
   },
   "projects": {
-    "/Users/natachacampos/Desktop/Projet/Project 1/Project 1.csproj": {
+    "/Users/natachacampos/Desktop/Projet/Project_1/Project 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/natachacampos/Desktop/Projet/Project 1/Project 1.csproj",
+        "projectUniqueName": "/Users/natachacampos/Desktop/Projet/Project_1/Project 1.csproj",
         "projectName": "Project 1",
-        "projectPath": "/Users/natachacampos/Desktop/Projet/Project 1/Project 1.csproj",
+        "projectPath": "/Users/natachacampos/Desktop/Projet/Project_1/Project 1.csproj",
         "packagesPath": "/Users/natachacampos/.nuget/packages/",
-        "outputPath": "/Users/natachacampos/Desktop/Projet/Project 1/obj/",
+        "outputPath": "/Users/natachacampos/Desktop/Projet/Project_1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/natachacampos/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

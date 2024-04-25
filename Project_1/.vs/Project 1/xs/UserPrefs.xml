@@ -1,31 +1,21 @@
 ﻿<Properties StartupConfiguration="{AA06491F-3F3A-4B47-8DBE-FC1755E91BEB}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SaisieUtilisateur.cs">
+    <Files>
+      <File FileName="Program.cs" />
+      <File FileName="Menu1.cs" />
+      <File FileName="Menu2Eleves.cs" />
+      <File FileName="Menu3Cours.cs" />
+      <File FileName="Eleves.cs" Line="40" Column="1" />
+      <File FileName="Cours.cs" />
+      <File FileName="Campus.cs" />
+      <File FileName="SaisieUtilisateur.cs" Line="89" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Project_2201 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Project_2201 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Eleves.cs">
-    <Files>
-      <File FileName="Program.cs" Line="22" Column="1" />
-      <File FileName="Eleves.cs" Line="57" Column="1" />
-      <File FileName="Menu1.cs" Line="24" Column="37" />
-      <File FileName="Menu2.cs" Line="43" Column="30" />
-      <File FileName="Campus.cs" Line="6" Column="21" />
-      <File FileName="Cours.cs" Line="24" Column="38" />
-      <File FileName="Menu3Cours.cs" Line="19" Column="1" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Project 1" expanded="True">
-            <Node name="Project 1">
-              <Node name="Eleves.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
 </Properties>
