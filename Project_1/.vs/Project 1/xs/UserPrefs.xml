@@ -1,20 +1,38 @@
 ﻿<Properties StartupConfiguration="{AA06491F-3F3A-4B47-8DBE-FC1755E91BEB}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SaisieUtilisateur.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GestionEleves.cs">
     <Files>
-      <File FileName="Program.cs" />
-      <File FileName="Menu1.cs" />
-      <File FileName="Menu2Eleves.cs" />
-      <File FileName="Menu3Cours.cs" />
-      <File FileName="Eleves.cs" Line="40" Column="1" />
-      <File FileName="Cours.cs" />
-      <File FileName="Campus.cs" />
-      <File FileName="SaisieUtilisateur.cs" Line="89" Column="41" />
+      <File FileName="Eleves.cs" Line="31" Column="22" />
+      <File FileName="Cours.cs" Line="1" Column="1" />
+      <File FileName="Notes.cs" Line="14" Column="3" />
+      <File FileName="Identifiant.cs" Line="7" Column="1" />
+      <File FileName="GestionCours.cs" Line="36" Column="13" />
+      <File FileName="GestionNotes.cs" Line="11" Column="2" />
+      <File FileName="GestionEleves.cs" Line="114" Column="65" />
+      <File FileName="MenuEleve.cs" Line="86" Column="47" />
+      <File FileName="MenuCour.cs" Line="83" Column="58" />
+      <File FileName="Lister.cs" Line="30" Column="47" />
+      <File FileName="SaisieUtilisateur.cs" Line="34" Column="1" />
+      <File FileName="MenuPrincipal.cs" Line="4" Column="9" />
+      <File FileName="Program.cs" Line="10" Column="1" />
+      <File FileName="DonneesJason.cs" Line="23" Column="28" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Project 1" expanded="True">
+            <Node name="Project 1">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="GestionEleves.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Project_2201 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

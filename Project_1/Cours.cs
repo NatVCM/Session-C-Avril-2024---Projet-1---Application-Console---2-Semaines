@@ -1,33 +1,24 @@
 ﻿using System;
 namespace Project_1
 {
-	public class Cours :Campus
-	{
-        private string _nom;
-        private int _identifiant;
-        private string [] _cours { get; set; }
+	public class Cours
+    { 
+        public string Nom { get; set; }
+        public int Identifiant{ get; set; }
+        
 
 
+        
 
-        public override void CreerNoveau()
+
+        public Cours(string nomcours)
         {
-            SaisieUtilisateur saisieUtilisateurCreerCours = new SaisieUtilisateur();
-            saisieUtilisateurCreerCours.SaisieUtilisateurCreerCours();
-
-            for (int i = 0; i < _cours.Length; i++)
-            {
-                _nom += _cours[i];
-                i = _identifiant;
-            }
-
-
-
+            Nom = nomcours;
         }
 
-        public override void Lister()
-        {
-            throw new NotImplementedException();
-        }
+        
+        
+
     }
 }
 
